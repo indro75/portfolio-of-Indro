@@ -294,6 +294,7 @@ button { cursor: pointer; font-family: inherit; }
   position: relative; background: var(--panel); border: 1px solid var(--border); border-radius: var(--radius);
   padding: 1.5rem; overflow: hidden; transform-style: preserve-3d;
   transition: border-color .3s; will-change: transform;
+  display: flex; flex-direction: column;
 }
 .project-card:hover { border-color: var(--border-strong); }
 .project-glow {
@@ -310,7 +311,7 @@ button { cursor: pointer; font-family: inherit; }
 .project-links svg { width: 20px; height: 20px; display: block; }
 .project-name { font-family: var(--display); font-size: 1.45rem; letter-spacing: -.02em; margin-bottom: .5rem; }
 .project-desc { color: var(--muted); font-size: .92rem; margin-bottom: 1.1rem; min-height: 4.5em; }
-.project-tags { display: flex; flex-wrap: wrap; gap: .45rem; }
+.project-tags { display: flex; flex-wrap: wrap; gap: .45rem; margin-top: auto; }
 .project-tags span { font-size: .65rem; color: var(--cyan); background: rgba(34,211,238,.07); border: 1px solid rgba(34,211,238,.22); border-radius: 6px; padding: .18rem .55rem; }
 .projects-more { margin-top: 2rem; text-align: center; }
 

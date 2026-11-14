@@ -40,9 +40,9 @@ tools/cp  : git · linux · dsa · algorithms · system design`,
 codechef    @indro101 → contest rating <span class="term-ok">1295</span> · 1200+ solved
 leetcode    @indro101 → max rating <span class="term-ok">1489</span> · 20+ solved
 ${link('https://codeforces.com/profile/indro101', '↳ verify on codeforces')}`,
-    projects: () => `<span class="term-accent">01</span> webos            web-based os · html/css/js
-<span class="term-accent">02</span> smart-residence  tenant platform · php/mysql
-<span class="term-accent">03</span> tutormatch        p2p campus tutoring · php/mysql/js
+    projects: () => `<span class="term-accent">01</span> nasa-hackathon-2026   artemis base camp simulator · js/web
+<span class="term-accent">02</span> mednex                next level medical service · ai/react
+<span class="term-accent">03</span> shopnest              ecommerce app · native php/mysql
 ${link('https://github.com/indro75', '↳ all repos on github')}`,
     email: () => `<button class="term-copy" id="termCopyEmail" style="background:rgba(0,229,160,.12);border:1px solid rgba(0,229,160,.4);color:#00e5a0;border-radius:6px;padding:.15rem .6rem;font-family:inherit;cursor:pointer">${EMAIL} ⧉</button>`,
     github: () => link('https://github.com/indro75', 'opening github.com/indro75 →'),

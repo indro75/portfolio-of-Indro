@@ -13,7 +13,7 @@ const ACTIONS = [
   { icon: '◉', name: 'Go to About', hint: '#about', run: () => scrollToId('#about'), keys: 'nav about who' },
   { icon: '⚒', name: 'Go to Skills', hint: '#skills', run: () => scrollToId('#skills'), keys: 'nav skills stack arsenal' },
   { icon: '▲', name: 'Go to CP Stats', hint: '#cp', run: () => scrollToId('#cp'), keys: 'nav cp codeforces codechef leetcode rating' },
-  { icon: '▤', name: 'Go to Projects', hint: '#projects', run: () => scrollToId('#projects'), keys: 'nav projects webos tutormatch smart residence' },
+  { icon: '▤', name: 'Go to Projects', hint: '#projects', run: () => scrollToId('#projects'), keys: 'nav projects nasa hackathon artemis mednex shopnest ecommerce builds' },
   { icon: '⚗', name: 'Go to The Lab', hint: '#lab', run: () => scrollToId('#lab'), keys: 'nav lab visualizer playground sort' },
   { icon: '✉', name: 'Go to Contact', hint: '#contact', run: () => scrollToId('#contact'), keys: 'nav contact hire' },
   { icon: '⧉', name: 'Copy email address', hint: 'indro3311@gmail.com', run: copyEmailPalette, keys: 'copy mail email' },
